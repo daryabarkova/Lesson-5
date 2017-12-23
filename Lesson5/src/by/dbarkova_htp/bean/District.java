@@ -4,11 +4,10 @@ public class District {
 	
 	private Region[] districtRegions;
 	
-	int counter = 0;
+	public static int counter;
 	
 	public District (Region[] districtRegions) {
 		this.districtRegions = districtRegions;
-		
 		counter++;
 	}
 
@@ -19,9 +18,3 @@ public class District {
 		}
 		return districtSquare;
 	}
-	
-	public int getDistrictsAmount() {
-		return counter;
-	}
-	
-}
