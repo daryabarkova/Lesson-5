@@ -60,6 +60,8 @@ public class mainApp {
 	}
 	
 	System.out.println("State Capital is " + stateCapital);
+		
+	System.out.println("Amount of districts is " + District.counter);
 	
 	double stateSquare = state.getStateSquare();
 	
